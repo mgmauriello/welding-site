@@ -62,9 +62,9 @@ class Main extends React.Component {
                         </a>
                       </div>
                       <div class="feature-text">
-                        <h2>Inquries</h2>
+                        <h2>Inquiries</h2>
                         <p>
-                          Send in an inquery to get a custom piece hand-crafted.
+                          Send in an inquiry to get a custom piece hand-crafted.
                         </p>
                       </div>
                     </div>
