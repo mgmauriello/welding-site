@@ -7,18 +7,18 @@
 /** Header Section **/
 .navbar {
   padding: 26px 105px;
-  background-color: #171616 !important;
+  background-color: #22283d !important;
 
   .navbar-brand {
     padding: 0;
     margin-right: 30px;
-    color: black;
-    box-shadow: white 2px 2px 2px;
+    color: white;
+    text-shadow: 1px 0px 6px #f4c171
   }
 
-  .bg-light {
-    background-color: #171616 !important;
-  }
+  // .bg-light {
+  //   background-color: #ffffff !important;
+  // }
 
   .navbar-toggler {
     outline: none;
@@ -34,7 +34,7 @@
       font-size: 16px;
       font-weight: 600;
       border-radius: 0;
-      color: #white;
+      color: white;
       display: inline-block;
     }
   }
@@ -59,7 +59,7 @@
     font-size: 48px;
     font-weight: 800;
     color: #ffff;
-    text-shadow: 3px 5px 2px #100f0f
+    text-shadow: 3px -1px 6px #100f0f
   }
 
   .section-text1 {
@@ -69,7 +69,7 @@
     margin-top: 32px;
     margin-bottom: 0;
     text-align: justify;
-    text-shadow: 3px 5px 2px #100f0f
+    text-shadow: 3px -1px 6px #100f0f
   }
 
   .section-text {
@@ -94,6 +94,9 @@
       line-height: normal;
       text-transform: uppercase;
       color: #ffffff;
+      &:hover {
+        background-color: #852a2a
+      }
     }
   }
 }
@@ -133,7 +136,7 @@
       color: #fff;
       margin-bottom: 28px;
       display: inline-block;
-
+      cursor: pointer;
       svg {
         width: 100%;
         height: 100%;
@@ -145,6 +148,7 @@
       font-weight: 800;
       color: white;
       margin-bottom: 22px;
+      cursor: pointer;
     }
   }
 }
@@ -153,7 +157,6 @@
   .navbar-collapse {
     right: 2.5% !important;
   }
-
   .navbar {
     padding: 20px 50px;
   }
@@ -169,4 +172,5 @@
       padding: 16px 0 !important;
     }
   }
+
 }

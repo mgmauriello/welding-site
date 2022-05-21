@@ -7,19 +7,14 @@
 /** Header Section **/
 .navbar {
   padding: 26px 105px;
-  background-color: #171616 !important;
+  background-color: #22283d !important;
 }
 
 .navbar .navbar-brand {
   padding: 0;
   margin-right: 30px;
-  color: black;
-  -webkit-box-shadow: white 2px 2px 2px;
-          box-shadow: white 2px 2px 2px;
-}
-
-.navbar .bg-light {
-  background-color: #171616 !important;
+  color: white;
+  text-shadow: 1px 0px 6px #f4c171;
 }
 
 .navbar .navbar-toggler {
@@ -37,7 +32,7 @@
   font-size: 16px;
   font-weight: 600;
   border-radius: 0;
-  color: #white;
+  color: white;
   display: inline-block;
 }
 
@@ -60,7 +55,7 @@
   font-size: 48px;
   font-weight: 800;
   color: #ffff;
-  text-shadow: 3px 5px 2px #100f0f;
+  text-shadow: 3px -1px 6px #100f0f;
 }
 
 .home-section1 .section-text1 {
@@ -70,7 +65,7 @@
   margin-top: 32px;
   margin-bottom: 0;
   text-align: justify;
-  text-shadow: 3px 5px 2px #100f0f;
+  text-shadow: 3px -1px 6px #100f0f;
 }
 
 .home-section1 .section-text {
@@ -97,6 +92,10 @@
   line-height: normal;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.home-section1 .getting-started .btn:hover {
+  background-color: #852a2a;
 }
 
 .home-section2 {
@@ -138,6 +137,7 @@
   color: #fff;
   margin-bottom: 28px;
   display: inline-block;
+  cursor: pointer;
 }
 
 .home-section2 .feature-wrap .feature-img svg {
@@ -150,6 +150,7 @@
   font-weight: 800;
   color: white;
   margin-bottom: 22px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1199px) {

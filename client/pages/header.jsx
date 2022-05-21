@@ -9,13 +9,12 @@ import {
   NavItem
 } from "reactstrap";
 
-class Header extends React.Component {
+export default class Header extends React.Component {
   render() {
     return (
       <div class="header">
         <nav
-          color="white"
-          className="navbar navbar-expand-lg navbar-light bg-light"
+          className="navbar navbar-expand-lg"
         >
           <a className="navbar-brand" href="#">
             John Welds
@@ -55,5 +54,3 @@ class Header extends React.Component {
     );
   }
 }
-
-export default Header;
